@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project investigates daily precipitation prediction in South Carolina using historical NOAA climate data collected between 2000 and 2023. Multiple machine learning algorithms were evaluated to compare regression and binary classification approaches.
+This project investigates daily precipitation prediction in South Carolina using historical NOAA climate data collected between 2000 and 2023. Multiple machine learning models were evaluated using walk-forward time-series validation. Both regression and binary classification approaches were compared to determine which produced the most accurate precipitation predictions.
 
 The project demonstrates an end-to-end machine learning workflow, including data preparation, feature engineering, model development, hyperparameter tuning, model evaluation, and final prediction on unseen 2024 data.
 
@@ -14,7 +14,7 @@ The project demonstrates an end-to-end machine learning workflow, including data
 - Machine Learning
 - Data Cleaning & Preprocessing
 - Feature Engineering
-- Time-Series Cross Validation
+- Time-Series Model Validation
 - Hyperparameter Tuning
 - Model Evaluation
 - Data Visualization
@@ -80,7 +80,7 @@ The final tuned XGBoost classifier was trained using historical climate data and
 
 - Compared five regression algorithms and three classification algorithms.
 - Implemented walk-forward time-series validation to avoid data leakage.
-- Hyperparameter tuning improved model performance.
+- Model tuning improved predictive performance.
 - Reformulating the problem as binary classification substantially improved predictive accuracy.
 - XGBoost produced the strongest overall predictive performance.
 
