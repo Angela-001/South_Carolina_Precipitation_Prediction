@@ -24,3 +24,5 @@ Developed machine learning models in Python to predict daily precipitation acros
 - Jupyter Notebook
 - pandas, numpy, matplotlib, seaborn
 - scikit-learn
+
+View my thesis on [ProQuest](https://www.proquest.com/dissertations-theses/predictive-modeling-precipitation-changes-south/docview/3290665231/se-2?accountid=55037)
