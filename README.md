@@ -37,7 +37,7 @@ The project demonstrates an end-to-end machine learning workflow, including data
 ## Project Structure
 
 ```
-notebooks/
+Notebooks/
 ├── 01_Data_Preparation.ipynb
 ├── 02_Regression_Models.ipynb
 └── 03_Classification_Models.ipynb
