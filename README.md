@@ -38,9 +38,8 @@ The project demonstrates an end-to-end machine learning workflow, including data
 
 ```
 Notebooks/
-├── 01_Data_Preparation.ipynb
-├── 02_Regression_Models.ipynb
-└── 03_Classification_Models.ipynb
+├── 01_Regression_Models.ipynb
+└── 02_Classification_Models.ipynb
 
 images/
 ├── regression_model_comparison.png
